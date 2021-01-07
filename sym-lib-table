@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Display_VFD)(type Legacy)(uri ${KIPRJMOD}/lib/Display_VFD.lib)(options "")(descr ""))
+  (lib (name Led_RGB)(type Legacy)(uri ${KIPRJMOD}/lib/Led_RGB.lib)(options "")(descr ""))
+  (lib (name Transistor_FET_Dual)(type Legacy)(uri ${KIPRJMOD}/lib/Transistor_FET_Dual.lib)(options "")(descr ""))
+  (lib (name Regulator_Switching_Silergy)(type Legacy)(uri ${KIPRJMOD}/lib/Regulator_Switching_Silergy.lib)(options "")(descr ""))
+  (lib (name Connector_TagConnect)(type Legacy)(uri ${KIPRJMOD}/lib/Connector_TagConnect.lib)(options "")(descr ""))
+)

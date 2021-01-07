@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name VFD_module)(type KiCad)(uri ${KIPRJMOD}/lib/VFD_module.pretty)(options "")(descr ""))
+  (lib (name Button_Carbon)(type KiCad)(uri ${KIPRJMOD}/lib/Button_Carbon.pretty)(options "")(descr ""))
+  (lib (name Inductor_yjycoin)(type KiCad)(uri ${KIPRJMOD}/lib/Inductor_yjycoin.pretty)(options "")(descr ""))
+  (lib (name Speaker_jiangsu)(type KiCad)(uri ${KIPRJMOD}/lib/Speaker_jiangsu.pretty)(options "")(descr ""))
+  (lib (name LED_RGB)(type KiCad)(uri ${KIPRJMOD}/lib/LED_RGB.pretty)(options "")(descr ""))
+)
