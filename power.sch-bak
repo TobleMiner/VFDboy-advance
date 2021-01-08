@@ -151,14 +151,14 @@ Connection ~ 2100 3550
 $Comp
 L power:VBUS #PWR?
 U 1 1 6053CC12
-P 1700 3300
+P 1700 2950
 AR Path="/6053CC12" Ref="#PWR?"  Part="1" 
 AR Path="/6051E9DC/6053CC12" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 1700 3150 50  0001 C CNN
-F 1 "VBUS" H 1715 3473 50  0000 C CNN
-F 2 "" H 1700 3300 50  0001 C CNN
-F 3 "" H 1700 3300 50  0001 C CNN
-	1    1700 3300
+F 0 "#PWR023" H 1700 2800 50  0001 C CNN
+F 1 "VBUS" H 1715 3123 50  0000 C CNN
+F 2 "" H 1700 2950 50  0001 C CNN
+F 3 "" H 1700 2950 50  0001 C CNN
+	1    1700 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -782,14 +782,14 @@ Connection ~ 4400 4750
 $Comp
 L Connector:TestPoint TP?
 U 1 1 6057E186
-P 4250 3550
+P 4250 3200
 AR Path="/6057E186" Ref="TP?"  Part="1" 
 AR Path="/6051E9DC/6057E186" Ref="TP1"  Part="1" 
-F 0 "TP1" H 4308 3668 50  0000 L CNN
-F 1 "BAT+" H 4308 3577 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 4450 3550 50  0001 C CNN
-F 3 "~" H 4450 3550 50  0001 C CNN
-	1    4250 3550
+F 0 "TP1" H 4308 3318 50  0000 L CNN
+F 1 "BAT+" H 4308 3227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 4450 3200 50  0001 C CNN
+F 3 "~" H 4450 3200 50  0001 C CNN
+	1    4250 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -918,9 +918,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 3900 3650 3900
 Wire Wire Line
-	2700 3350 2700 3300
-Wire Wire Line
-	2700 4000 2700 4250
+	2700 4000 2700 4050
 $Comp
 L Device:LED D?
 U 1 1 6057E1D2
@@ -1004,14 +1002,14 @@ Wire Wire Line
 $Comp
 L power:VBUS #PWR?
 U 1 1 6057E1D9
-P 2700 3300
+P 2700 3250
 AR Path="/6057E1D9" Ref="#PWR?"  Part="1" 
 AR Path="/6051E9DC/6057E1D9" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 2700 3150 50  0001 C CNN
-F 1 "VBUS" H 2715 3473 50  0000 C CNN
-F 2 "" H 2700 3300 50  0001 C CNN
-F 3 "" H 2700 3300 50  0001 C CNN
-	1    2700 3300
+F 0 "#PWR037" H 2700 3100 50  0001 C CNN
+F 1 "VBUS" H 2715 3423 50  0000 C CNN
+F 2 "" H 2700 3250 50  0001 C CNN
+F 3 "" H 2700 3250 50  0001 C CNN
+	1    2700 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1149,4 +1147,111 @@ Wire Wire Line
 	4250 3600 4400 3600
 Text HLabel 9150 4850 0    50   Input ~ 0
 PWR_EN
+$Comp
+L Device:Fuse F1
+U 1 1 60F311E6
+P 1700 3150
+F 0 "F1" H 1760 3196 50  0000 L CNN
+F 1 "Fuse" H 1760 3105 50  0000 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 1630 3150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1200C_C182310.pdf" H 1700 3150 50  0001 C CNN
+F 4 "C182310" H 1700 3150 50  0001 C CNN "LCSC"
+	1    1700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2950 1700 3000
+$Comp
+L Device:Fuse F2
+U 1 1 60F38C32
+P 4250 3400
+F 0 "F2" H 4310 3446 50  0000 L CNN
+F 1 "Fuse" H 4310 3355 50  0000 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 4180 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1200C_C182310.pdf" H 4250 3400 50  0001 C CNN
+F 4 "C182310" H 4250 3400 50  0001 C CNN "LCSC"
+	1    4250 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 3250 4250 3200
+$Comp
+L Device:R R?
+U 1 1 60F9B087
+P 2500 4350
+AR Path="/60F9B087" Ref="R?"  Part="1" 
+AR Path="/6051E9DC/60F9B087" Ref="R?"  Part="1" 
+F 0 "R?" V 2293 4350 50  0000 C CNN
+F 1 "8.2kR" V 2384 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2430 4350 50  0001 C CNN
+F 3 "~" H 2500 4350 50  0001 C CNN
+F 4 "C25924" V 2500 4350 50  0001 C CNN "LCSC"
+	1    2500 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60FA0E56
+P 2300 4550
+AR Path="/60FA0E56" Ref="C?"  Part="1" 
+AR Path="/6051E9DC/60FA0E56" Ref="C?"  Part="1" 
+F 0 "C?" V 2552 4550 50  0000 C CNN
+F 1 "100nF" V 2461 4550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2338 4400 50  0001 C CNN
+F 3 "~" H 2300 4550 50  0001 C CNN
+F 4 "C1525" H 2300 4550 50  0001 C CNN "LCSC"
+	1    2300 4550
+	-1   0    0    1   
+$EndComp
+Connection ~ 2700 4750
+Wire Wire Line
+	2650 4350 2700 4350
+Connection ~ 2700 4350
+Wire Wire Line
+	2300 4750 2300 4700
+Wire Wire Line
+	2300 4750 2700 4750
+Wire Wire Line
+	2350 4350 2300 4350
+Wire Wire Line
+	2300 4350 2300 4400
+Wire Wire Line
+	2250 4350 2300 4350
+Connection ~ 2300 4350
+Text HLabel 2250 4350 0    50   Output ~ 0
+Ichg
+$Comp
+L Device:R R?
+U 1 1 60FBF848
+P 2900 3500
+AR Path="/60FBF848" Ref="R?"  Part="1" 
+AR Path="/6051E9DC/60FBF848" Ref="R?"  Part="1" 
+F 0 "R?" V 2693 3500 50  0000 C CNN
+F 1 "8.2kR" V 2784 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2830 3500 50  0001 C CNN
+F 3 "~" H 2900 3500 50  0001 C CNN
+F 4 "C25924" V 2900 3500 50  0001 C CNN "LCSC"
+	1    2900 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 3250 2700 3300
+Wire Wire Line
+	2700 3300 2900 3300
+Wire Wire Line
+	2900 3300 2900 3350
+Connection ~ 2700 3300
+Wire Wire Line
+	2700 3300 2700 3350
+Wire Wire Line
+	2900 3650 2900 4050
+Wire Wire Line
+	2900 4050 2700 4050
+Connection ~ 2700 4050
+Wire Wire Line
+	2700 4050 2700 4250
+Text HLabel 2650 4050 0    50   Output ~ 0
+LEDchg
+Wire Wire Line
+	2650 4050 2700 4050
 $EndSCHEMATC
