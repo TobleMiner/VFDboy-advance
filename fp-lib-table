@@ -4,4 +4,5 @@
   (lib (name Inductor_yjycoin)(type KiCad)(uri ${KIPRJMOD}/lib/Inductor_yjycoin.pretty)(options "")(descr ""))
   (lib (name Speaker_jiangsu)(type KiCad)(uri ${KIPRJMOD}/lib/Speaker_jiangsu.pretty)(options "")(descr ""))
   (lib (name LED_RGB)(type KiCad)(uri ${KIPRJMOD}/lib/LED_RGB.pretty)(options "")(descr ""))
+  (lib (name Connector_Card_MicroSD)(type KiCad)(uri ${KIPRJMOD}/lib/Connector_Card_MicroSD.pretty)(options "")(descr ""))
 )
