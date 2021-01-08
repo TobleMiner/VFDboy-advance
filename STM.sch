@@ -439,23 +439,7 @@ $EndComp
 Wire Wire Line
 	5450 5100 4400 5100
 Wire Wire Line
-	5450 5200 4850 5200
-Wire Wire Line
-	4850 5200 4850 5300
-Wire Wire Line
-	4850 5300 4400 5300
-Wire Wire Line
-	5450 5300 5050 5300
-Wire Wire Line
-	5050 5300 5050 4900
-Wire Wire Line
-	5050 4900 4400 4900
-Wire Wire Line
-	4400 4800 5200 4800
-Wire Wire Line
-	5200 4800 5200 5000
-Wire Wire Line
-	5200 5000 5450 5000
+	4400 4800 4900 4800
 $Comp
 L power:GND #PWR?
 U 1 1 60D10218
@@ -611,15 +595,6 @@ Connection ~ 4950 3650
 NoConn ~ 4400 4700
 NoConn ~ 4400 5400
 NoConn ~ 6650 4200
-NoConn ~ 6650 4900
-NoConn ~ 6650 5000
-NoConn ~ 6650 5300
-NoConn ~ 5450 4800
-NoConn ~ 5450 4700
-NoConn ~ 5450 4600
-NoConn ~ 5450 4500
-NoConn ~ 5450 4400
-NoConn ~ 5450 4300
 NoConn ~ 5450 4200
 Text HLabel 7150 3900 2    50   Output ~ 0
 PWR_EN
@@ -649,10 +624,10 @@ Wire Wire Line
 Text HLabel 5150 3900 0    50   Output ~ 0
 OLED~DC
 $Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR0103
 U 1 1 60FE73CC
 P 5050 3250
-F 0 "#PWR?" H 5050 3100 50  0001 C CNN
+F 0 "#PWR0103" H 5050 3100 50  0001 C CNN
 F 1 "VBUS" H 5065 3423 50  0000 C CNN
 F 2 "" H 5050 3250 50  0001 C CNN
 F 3 "" H 5050 3250 50  0001 C CNN
@@ -665,8 +640,8 @@ U 1 1 60FE8A0E
 P 5250 3400
 AR Path="/60FE8A0E" Ref="R?"  Part="1" 
 AR Path="/6051E9DC/60FE8A0E" Ref="R?"  Part="1" 
-AR Path="/60CF39C0/60FE8A0E" Ref="R?"  Part="1" 
-F 0 "R?" V 5043 3400 50  0000 C CNN
+AR Path="/60CF39C0/60FE8A0E" Ref="R28"  Part="1" 
+F 0 "R28" V 5043 3400 50  0000 C CNN
 F 1 "8.2kR" V 5134 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5180 3400 50  0001 C CNN
 F 3 "~" H 5250 3400 50  0001 C CNN
@@ -697,4 +672,109 @@ Wire Wire Line
 	5450 4000 5150 4000
 Text HLabel 5150 4000 0    50   Input ~ 0
 LEDchg
+Wire Wire Line
+	5450 4400 5150 4400
+Wire Wire Line
+	5450 4500 5150 4500
+Text HLabel 5150 4400 0    50   Output ~ 0
+SCL
+Text HLabel 5150 4500 0    50   BiDi ~ 0
+SDA
+Text Label 5200 4400 0    50   ~ 0
+SCL
+Text Label 5200 4500 0    50   ~ 0
+SDA
+Wire Wire Line
+	5450 4600 5150 4600
+Text HLabel 5150 4600 0    50   Output ~ 0
+GAUGE_EN
+$Comp
+L Device:R R?
+U 1 1 611AA57E
+P 3350 3650
+AR Path="/611AA57E" Ref="R?"  Part="1" 
+AR Path="/60CF39C0/611AA57E" Ref="R33"  Part="1" 
+F 0 "R33" V 3143 3650 50  0000 C CNN
+F 1 "3.3kR" V 3234 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3280 3650 50  0001 C CNN
+F 3 "~" H 3350 3650 50  0001 C CNN
+F 4 "C25890" V 3350 3650 50  0001 C CNN "LCSC"
+	1    3350 3650
+	0    1    1    0   
+$EndComp
+Text Label 5150 4600 0    50   ~ 0
+I2CPWR
+$Comp
+L Device:R R?
+U 1 1 611AE5AD
+P 3350 3950
+AR Path="/611AE5AD" Ref="R?"  Part="1" 
+AR Path="/60CF39C0/611AE5AD" Ref="R34"  Part="1" 
+F 0 "R34" V 3143 3950 50  0000 C CNN
+F 1 "3.3kR" V 3234 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3280 3950 50  0001 C CNN
+F 3 "~" H 3350 3950 50  0001 C CNN
+F 4 "C25890" V 3350 3950 50  0001 C CNN "LCSC"
+	1    3350 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3950 3100 3950
+Wire Wire Line
+	3100 3950 3100 3650
+Wire Wire Line
+	3100 3650 3200 3650
+Connection ~ 3100 3650
+Text Label 2800 3650 0    50   ~ 0
+I2CPWR
+Wire Wire Line
+	2800 3650 3100 3650
+Wire Wire Line
+	3500 3650 3650 3650
+Text Label 3650 3650 2    50   ~ 0
+SDA
+Wire Wire Line
+	3500 3950 3650 3950
+Text Label 3650 3950 2    50   ~ 0
+SCL
+Wire Wire Line
+	5450 4300 5150 4300
+Text HLabel 5150 4300 0    50   Input ~ 0
+A
+Wire Wire Line
+	5450 4700 5150 4700
+Text HLabel 5150 4700 0    50   Input ~ 0
+B
+Wire Wire Line
+	4700 5300 4700 5200
+Wire Wire Line
+	4700 5300 4400 5300
+Wire Wire Line
+	4700 5200 5450 5200
+Wire Wire Line
+	4800 5300 4800 4900
+Wire Wire Line
+	4800 5300 5450 5300
+Wire Wire Line
+	4800 4900 4400 4900
+Wire Wire Line
+	4900 4800 4900 5000
+Wire Wire Line
+	4900 5000 5450 5000
+Wire Wire Line
+	5450 4800 5150 4800
+Text HLabel 5150 4800 0    50   Input ~ 0
+UP
+Text HLabel 6800 5300 2    50   Input ~ 0
+LEFT
+Wire Wire Line
+	6800 5300 6650 5300
+Text HLabel 6800 4900 2    50   Input ~ 0
+DOWN
+Wire Wire Line
+	6800 4900 6650 4900
+Text HLabel 6800 5000 2    50   Input ~ 0
+RIGHT
+Wire Wire Line
+	6800 5000 6650 5000
 $EndSCHEMATC
