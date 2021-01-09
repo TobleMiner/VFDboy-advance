@@ -5,4 +5,5 @@
   (lib (name Regulator_Switching_Silergy)(type Legacy)(uri ${KIPRJMOD}/lib/Regulator_Switching_Silergy.lib)(options "")(descr ""))
   (lib (name Connector_TagConnect)(type Legacy)(uri ${KIPRJMOD}/lib/Connector_TagConnect.lib)(options "")(descr ""))
   (lib (name Fuel_Gauge_TI)(type Legacy)(uri ${KIPRJMOD}/lib/Fuel_Gauge_TI.lib)(options "")(descr ""))
+  (lib (name Battery_Management_Generic)(type Legacy)(uri ${KIPRJMOD}/lib/Battery_Management_Generic.lib)(options "")(descr ""))
 )
