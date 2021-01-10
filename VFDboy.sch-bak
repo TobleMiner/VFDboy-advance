@@ -1191,17 +1191,6 @@ RIGHT
 Wire Wire Line
 	550  5600 800  5600
 $Comp
-L Mechanical:MountingHole H6
-U 1 1 61838AD4
-P 4550 7550
-F 0 "H6" H 4650 7596 50  0000 L CNN
-F 1 "MountingHole" H 4650 7505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4550 7550 50  0001 C CNN
-F 3 "~" H 4550 7550 50  0001 C CNN
-	1    4550 7550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H5
 U 1 1 61839028
 P 4550 7350
@@ -1210,17 +1199,6 @@ F 1 "MountingHole" H 4650 7305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4550 7350 50  0001 C CNN
 F 3 "~" H 4550 7350 50  0001 C CNN
 	1    4550 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 618434E7
-P 4550 7150
-F 0 "H4" H 4650 7196 50  0000 L CNN
-F 1 "MountingHole" H 4650 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4550 7150 50  0001 C CNN
-F 3 "~" H 4550 7150 50  0001 C CNN
-	1    4550 7150
 	1    0    0    -1  
 $EndComp
 $Comp
