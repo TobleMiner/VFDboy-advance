@@ -587,16 +587,16 @@ AVR~RST
 Wire Wire Line
 	5150 5100 5450 5100
 Wire Wire Line
-	6650 4900 7150 4900
-Text HLabel 7150 4900 2    50   Output ~ 0
+	6650 4700 7150 4700
+Text HLabel 7150 4700 2    50   Output ~ 0
 OLED~RST
 Wire Wire Line
 	6650 4800 7150 4800
 Text HLabel 7150 4800 2    50   Output ~ 0
 OLED~CS
 Wire Wire Line
-	6650 4700 6950 4700
-Text HLabel 6950 4700 2    50   Output ~ 0
+	6650 5300 6950 5300
+Text HLabel 6950 5300 2    50   Output ~ 0
 OLED~DC
 $Comp
 L power:VBUS #PWR0103
@@ -640,12 +640,12 @@ Wire Wire Line
 Wire Wire Line
 	5050 3400 5100 3400
 Wire Wire Line
-	6650 3900 7150 3900
-Text HLabel 7150 3900 2    50   Input ~ 0
+	6650 4100 7150 4100
+Text HLabel 7150 4100 2    50   Input ~ 0
 Ichg
 Wire Wire Line
-	4900 4500 4600 4500
-Text HLabel 4600 4500 0    50   Input ~ 0
+	6650 3900 6950 3900
+Text HLabel 6950 3900 2    50   Input ~ 0
 LEDchg
 Wire Wire Line
 	5450 4800 5150 4800
@@ -713,12 +713,12 @@ Wire Wire Line
 Text Label 3050 3950 2    50   ~ 0
 SCL
 Wire Wire Line
-	5450 4700 5150 4700
-Text HLabel 5150 4700 0    50   Input ~ 0
-A
-Wire Wire Line
 	5450 4600 5150 4600
 Text HLabel 5150 4600 0    50   Input ~ 0
+A
+Wire Wire Line
+	5450 4700 5150 4700
+Text HLabel 5150 4700 0    50   Input ~ 0
 B
 Wire Wire Line
 	5450 4500 5150 4500
