@@ -713,12 +713,12 @@ Wire Wire Line
 Text Label 3050 3950 2    50   ~ 0
 SCL
 Wire Wire Line
-	5450 4700 5150 4700
-Text HLabel 5150 4700 0    50   Input ~ 0
-A
-Wire Wire Line
 	5450 4600 5150 4600
 Text HLabel 5150 4600 0    50   Input ~ 0
+A
+Wire Wire Line
+	5450 4700 5150 4700
+Text HLabel 5150 4700 0    50   Input ~ 0
 B
 Wire Wire Line
 	5450 4500 5150 4500
