@@ -375,7 +375,7 @@
     (tags capacitor)
     (path /62050786/6205EA4D/6205F444)
     (attr smd)
-    (fp_text reference C53 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C53 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -411,7 +411,7 @@
     (tags capacitor)
     (path /62050786/62060AD8/6205F444)
     (attr smd)
-    (fp_text reference C52 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C52 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -447,7 +447,7 @@
     (tags capacitor)
     (path /62050786/62060C37/6205F444)
     (attr smd)
-    (fp_text reference C51 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C51 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -483,7 +483,7 @@
     (tags capacitor)
     (path /62050786/62060CAF/6205F444)
     (attr smd)
-    (fp_text reference C50 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C50 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -516,7 +516,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 60156BB2)
     (at 210.664 101.5 180)
     (path /62050786/6205EA4D/6205F43D)
-    (fp_text reference D23 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D23 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -553,7 +553,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 60156B8A)
     (at 191.798 101.5 180)
     (path /62050786/62060AD8/6205F43D)
-    (fp_text reference D22 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D22 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -590,7 +590,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 60156B62)
     (at 172.932 101.5 180)
     (path /62050786/62060C37/6205F43D)
-    (fp_text reference D21 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D21 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -627,7 +627,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 60156B3A)
     (at 154.066 101.5 180)
     (path /62050786/62060CAF/6205F43D)
-    (fp_text reference D20 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D20 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -667,7 +667,7 @@
     (tags capacitor)
     (path /62050786/62062392/6205F444)
     (attr smd)
-    (fp_text reference C40 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C40 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -700,7 +700,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 6014F5DF)
     (at 135.2 101.5 180)
     (path /62050786/62060D3F/6205F43D)
-    (fp_text reference D19 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D19 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -740,7 +740,7 @@
     (tags capacitor)
     (path /62050786/62061B32/6205F444)
     (attr smd)
-    (fp_text reference C39 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C39 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -776,7 +776,7 @@
     (tags capacitor)
     (path /62050786/6206271B/6205F444)
     (attr smd)
-    (fp_text reference C42 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C42 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -812,7 +812,7 @@
     (tags capacitor)
     (path /62050786/62062232/6205F444)
     (attr smd)
-    (fp_text reference C48 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C48 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -848,7 +848,7 @@
     (tags capacitor)
     (path /62050786/62062502/6205F444)
     (attr smd)
-    (fp_text reference C41 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C41 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -884,7 +884,7 @@
     (tags capacitor)
     (path /62050786/62062CC9/6205F444)
     (attr smd)
-    (fp_text reference C44 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C44 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -920,7 +920,7 @@
     (tags capacitor)
     (path /62050786/62062986/6205F444)
     (attr smd)
-    (fp_text reference C43 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C43 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -956,7 +956,7 @@
     (tags capacitor)
     (path /62050786/62060D3F/6205F444)
     (attr smd)
-    (fp_text reference C49 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C49 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1uF (at 0 1.16 90) (layer F.Fab)
@@ -989,7 +989,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 6014BD51)
     (at 229.596 158.5)
     (path /62050786/62062CC9/6205F43D)
-    (fp_text reference D14 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D14 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -1026,7 +1026,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 6014BE41)
     (at 210.73 158.5)
     (path /62050786/62062986/6205F43D)
-    (fp_text reference D13 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D13 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -1063,7 +1063,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 6014BE7D)
     (at 191.864 158.5)
     (path /62050786/6206271B/6205F43D)
-    (fp_text reference D12 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D12 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -1100,7 +1100,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 6014BD15)
     (at 172.998 158.5)
     (path /62050786/62062502/6205F43D)
-    (fp_text reference D11 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D11 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -1137,7 +1137,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 6014BD8D)
     (at 154.132 158.5)
     (path /62050786/62062392/6205F43D)
-    (fp_text reference D10 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D10 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -1174,7 +1174,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 6014BE05)
     (at 135.266 158.5)
     (path /62050786/62062232/6205F43D)
-    (fp_text reference D18 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D18 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -1214,7 +1214,7 @@
     (tags capacitor)
     (path /60CF39C0/6237296F)
     (attr smd)
-    (fp_text reference C20 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference C20 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10uF (at 0 1.43) (layer F.Fab)
@@ -1250,7 +1250,7 @@
     (tags capacitor)
     (path /60CF39C0/6235648D)
     (attr smd)
-    (fp_text reference C60 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C60 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100nF (at 0 1.16 90) (layer F.Fab)
@@ -1286,7 +1286,7 @@
     (tags capacitor)
     (path /623023B5)
     (attr smd)
-    (fp_text reference C59 (at 0 -1.16) (layer F.SilkS)
+    (fp_text reference C59 (at 0 -1.16) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10nF (at 0 1.16) (layer F.Fab)
@@ -1322,7 +1322,7 @@
     (tags capacitor)
     (path /623277A2)
     (attr smd)
-    (fp_text reference C58 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C58 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10nF (at 0 1.16 90) (layer F.Fab)
@@ -1358,7 +1358,7 @@
     (tags capacitor)
     (path /622695CE)
     (attr smd)
-    (fp_text reference C57 (at 0 -1.16) (layer F.SilkS)
+    (fp_text reference C57 (at 0 -1.16) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10nF (at 0 1.16) (layer F.Fab)
@@ -1394,7 +1394,7 @@
     (tags capacitor)
     (path /6225DB0B)
     (attr smd)
-    (fp_text reference C56 (at 0 -1.16) (layer F.SilkS)
+    (fp_text reference C56 (at 0 -1.16) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10nF (at 0 1.16) (layer F.Fab)
@@ -1430,7 +1430,7 @@
     (tags capacitor)
     (path /6225E767)
     (attr smd)
-    (fp_text reference C55 (at 0 -1.16) (layer F.SilkS)
+    (fp_text reference C55 (at 0 -1.16) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10nF (at 0 1.16) (layer F.Fab)
@@ -1466,7 +1466,7 @@
     (tags capacitor)
     (path /62274237)
     (attr smd)
-    (fp_text reference C54 (at 0 -1.16) (layer F.SilkS)
+    (fp_text reference C54 (at 0 -1.16) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10nF (at 0 1.16) (layer F.Fab)
@@ -1532,7 +1532,7 @@
     (tags "mounting hole 3.5mm no annular")
     (path /6213C8C7)
     (attr virtual)
-    (fp_text reference H15 (at 0 -4.5) (layer F.SilkS)
+    (fp_text reference H15 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "MountingHole AB top left" (at 0 4.5) (layer F.Fab)
@@ -1640,7 +1640,7 @@
   (module LED_RGB:LED_RGB_2020_WS2812C (layer F.Cu) (tedit 5FFC50B7) (tstamp 6014BDC9)
     (at 116.4 158.5)
     (path /62050786/62061B32/6205F43D)
-    (fp_text reference D9 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference D9 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value WS2812C-2020 (at 0 -0.5) (layer F.Fab)
@@ -1680,7 +1680,7 @@
     (tags capacitor)
     (path /61D5B828)
     (attr smd)
-    (fp_text reference C35 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C35 (at 0 -1.16 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100nF (at 0 1.16 90) (layer F.Fab)
@@ -1869,7 +1869,7 @@
   (module Battery_LiPo:LiPo_6060100 (layer B.Cu) (tedit 5FFB37F3) (tstamp 6000C30B)
     (at 170 130 180)
     (path /6051E9DC/6195E7B9)
-    (fp_text reference BT1 (at 0 -0.5) (layer B.SilkS)
+    (fp_text reference BT1 (at 0 -0.5) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 6060100 (at 0 0.5) (layer B.Fab)
@@ -1916,7 +1916,7 @@
     (tags capacitor)
     (path /6051E9DC/61A31217)
     (attr smd)
-    (fp_text reference C34 (at 0 -1.16) (layer F.SilkS)
+    (fp_text reference C34 (at 0 -1.16) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100nF (at 0 1.16) (layer F.Fab)
@@ -1952,7 +1952,7 @@
     (tags capacitor)
     (path /6051E9DC/61A24F0F)
     (attr smd)
-    (fp_text reference C33 (at 0 -1.16) (layer F.SilkS)
+    (fp_text reference C33 (at 0 -1.16) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100nF (at 0 1.16) (layer F.Fab)
