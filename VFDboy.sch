@@ -1288,14 +1288,36 @@ F 3 "~" H 4350 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H6
 U 1 1 620E34B6
 P 4350 6700
-F 0 "H?" H 4450 6746 50  0000 L CNN
+F 0 "H6" H 4450 6746 50  0000 L CNN
 F 1 "MountingHole D-Pad bottom left" H 4450 6655 50  0000 L CNN
 F 2 "MountingHole_GBA:MountingHole_GBA_DPAD" H 4350 6700 50  0001 C CNN
 F 3 "~" H 4350 6700 50  0001 C CNN
 	1    4350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 620F5804
+P 3100 7050
+F 0 "H?" H 3200 7096 50  0000 L CNN
+F 1 "MountingHole D-Pad top left" H 3200 7005 50  0000 L CNN
+F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 3100 7050 50  0001 C CNN
+F 3 "~" H 3100 7050 50  0001 C CNN
+	1    3100 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 621007C1
+P 3100 7300
+F 0 "H?" H 3200 7346 50  0000 L CNN
+F 1 "MountingHole D-Pad bottom right" H 3200 7255 50  0000 L CNN
+F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 3100 7300 50  0001 C CNN
+F 3 "~" H 3100 7300 50  0001 C CNN
+	1    3100 7300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
