@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 23
 Title ""
 Date ""
 Rev ""
@@ -721,17 +721,13 @@ Wire Wire Line
 Text HLabel 5150 4700 0    50   Input ~ 0
 B
 Wire Wire Line
-	5450 4500 5150 4500
-Text HLabel 5150 4500 0    50   Input ~ 0
+	5450 4300 5150 4300
+Text HLabel 5150 4300 0    50   Input ~ 0
 UP
 Text HLabel 5300 4400 0    50   Input ~ 0
 LEFT
 Wire Wire Line
 	5300 4400 5450 4400
-Text HLabel 5300 4300 0    50   Input ~ 0
-DOWN
-Wire Wire Line
-	5300 4300 5450 4300
 Text HLabel 5300 4100 0    50   Input ~ 0
 RIGHT
 Wire Wire Line
@@ -827,4 +823,8 @@ NoConn ~ 5450 4200
 Text Notes 5950 4200 2    50   ~ 0
 ~JTRST
 Connection ~ 3800 4050
+Wire Wire Line
+	5300 4500 5450 4500
+Text HLabel 5300 4500 0    50   Input ~ 0
+DOWN
 $EndSCHEMATC

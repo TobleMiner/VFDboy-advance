@@ -6,4 +6,5 @@
   (lib (name LED_RGB)(type KiCad)(uri ${KIPRJMOD}/lib/LED_RGB.pretty)(options "")(descr ""))
   (lib (name Connector_Card_MicroSD)(type KiCad)(uri ${KIPRJMOD}/lib/Connector_Card_MicroSD.pretty)(options "")(descr ""))
   (lib (name Battery_LiPo)(type KiCad)(uri ${KIPRJMOD}/lib/Battery_LiPo.pretty)(options "")(descr ""))
+  (lib (name MountingHole_GBA)(type KiCad)(uri ${KIPRJMOD}/lib/MountingHole_GBA.pretty)(options "")(descr ""))
 )

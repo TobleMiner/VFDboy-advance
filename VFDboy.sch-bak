@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 23
 Title ""
 Date ""
 Rev ""
@@ -1011,7 +1011,7 @@ MOSI
 Text Label 2150 6000 2    50   ~ 0
 MISO
 $Sheet
-S 800  4550 950  1750
+S 800  4550 950  1950
 U 60CF39C0
 F0 "STM32" 50
 F1 "STM.sch" 50
@@ -1034,6 +1034,7 @@ F17 "UP" I L 800 5300 50
 F18 "LEFT" I L 800 5400 50 
 F19 "DOWN" I L 800 5500 50 
 F20 "RIGHT" I L 800 5600 50 
+F21 "LED_DATA" O R 1750 6400 50 
 $EndSheet
 Text Label 2150 5500 2    50   ~ 0
 ~OLEDRST
@@ -1266,4 +1267,24 @@ Wire Wire Line
 	4000 4500 4000 4450
 Wire Wire Line
 	4000 4450 3950 4450
+$Sheet
+S 2200 6300 650  200 
+U 62050786
+F0 "Leds" 50
+F1 "leds.sch" 50
+F2 "DIN" I L 2200 6400 50 
+$EndSheet
+Wire Wire Line
+	2200 6400 1750 6400
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 620E044D
+P 4350 6450
+F 0 "H?" H 4450 6496 50  0000 L CNN
+F 1 "MountingHole D-Pad right" H 4450 6405 50  0000 L CNN
+F 2 "MountingHole_GBA:MountingHole_GBA_DPAD" H 4350 6450 50  0001 C CNN
+F 3 "~" H 4350 6450 50  0001 C CNN
+	1    4350 6450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
