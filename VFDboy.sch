@@ -1299,10 +1299,10 @@ F 3 "~" H 4350 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H10
 U 1 1 620F5804
 P 3100 7050
-F 0 "H?" H 3200 7096 50  0000 L CNN
+F 0 "H10" H 3200 7096 50  0000 L CNN
 F 1 "MountingHole D-Pad top left" H 3200 7005 50  0000 L CNN
 F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 3100 7050 50  0001 C CNN
 F 3 "~" H 3100 7050 50  0001 C CNN
@@ -1310,14 +1310,58 @@ F 3 "~" H 3100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H11
 U 1 1 621007C1
 P 3100 7300
-F 0 "H?" H 3200 7346 50  0000 L CNN
+F 0 "H11" H 3200 7346 50  0000 L CNN
 F 1 "MountingHole D-Pad bottom right" H 3200 7255 50  0000 L CNN
 F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 3100 7300 50  0001 C CNN
 F 3 "~" H 3100 7300 50  0001 C CNN
 	1    3100 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 6212859B
+P 1100 7000
+F 0 "H12" H 1200 7046 50  0000 L CNN
+F 1 "MountingHole AB bottom left" H 1200 6955 50  0000 L CNN
+F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 1100 7000 50  0001 C CNN
+F 3 "~" H 1100 7000 50  0001 C CNN
+	1    1100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 621285A1
+P 1100 7250
+F 0 "H13" H 1200 7296 50  0000 L CNN
+F 1 "MountingHole AB top right" H 1200 7205 50  0000 L CNN
+F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 1100 7250 50  0001 C CNN
+F 3 "~" H 1100 7250 50  0001 C CNN
+	1    1100 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6213C8C1
+P 1150 8050
+F 0 "H?" H 1250 8096 50  0000 L CNN
+F 1 "MountingHole AB bottom right" H 1250 8005 50  0000 L CNN
+F 2 "MountingHole_GBA:MountingHole_GBA_AB_bottom_right" H 1150 8050 50  0001 C CNN
+F 3 "~" H 1150 8050 50  0001 C CNN
+	1    1150 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6213C8C7
+P 1150 8300
+F 0 "H?" H 1250 8346 50  0000 L CNN
+F 1 "MountingHole AB top right" H 1250 8255 50  0000 L CNN
+F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 1150 8300 50  0001 C CNN
+F 3 "~" H 1150 8300 50  0001 C CNN
+	1    1150 8300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
