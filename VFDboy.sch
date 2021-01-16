@@ -1343,10 +1343,10 @@ F 3 "~" H 1100 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H14
 U 1 1 6213C8C1
 P 1150 8050
-F 0 "H?" H 1250 8096 50  0000 L CNN
+F 0 "H14" H 1250 8096 50  0000 L CNN
 F 1 "MountingHole AB bottom right" H 1250 8005 50  0000 L CNN
 F 2 "MountingHole_GBA:MountingHole_GBA_AB_bottom_right" H 1150 8050 50  0001 C CNN
 F 3 "~" H 1150 8050 50  0001 C CNN
@@ -1354,14 +1354,36 @@ F 3 "~" H 1150 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H15
 U 1 1 6213C8C7
 P 1150 8300
-F 0 "H?" H 1250 8346 50  0000 L CNN
-F 1 "MountingHole AB top right" H 1250 8255 50  0000 L CNN
-F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 1150 8300 50  0001 C CNN
+F 0 "H15" H 1250 8346 50  0000 L CNN
+F 1 "MountingHole AB top left" H 1250 8255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 1150 8300 50  0001 C CNN
 F 3 "~" H 1150 8300 50  0001 C CNN
 	1    1150 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 621E7530
+P 6400 6200
+F 0 "H?" H 6500 6246 50  0000 L CNN
+F 1 "ToolingHole" H 6500 6155 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 6400 6200 50  0001 C CNN
+F 3 "~" H 6400 6200 50  0001 C CNN
+	1    6400 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 621E8454
+P 6400 6400
+F 0 "H?" H 6500 6446 50  0000 L CNN
+F 1 "ToolingHole" H 6500 6355 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 6400 6400 50  0001 C CNN
+F 3 "~" H 6400 6400 50  0001 C CNN
+	1    6400 6400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
