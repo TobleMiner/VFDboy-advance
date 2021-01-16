@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 104)
+    (drawings 105)
     (tracks 1477)
     (zones 0)
     (modules 166)
@@ -6498,6 +6498,7 @@
     )
   )
 
+  (gr_circle (center 125.3 113) (end 125.158579 113) (layer F.SilkS) (width 0.3) (tstamp 60129C58))
   (gr_circle (center 164 106.2) (end 163.858579 106.2) (layer F.SilkS) (width 0.3) (tstamp 60129C58))
   (gr_circle (center 222.7 124) (end 222.558579 124) (layer F.SilkS) (width 0.3) (tstamp 60129C58))
   (gr_circle (center 214.3 118.6) (end 214.158579 118.6) (layer F.SilkS) (width 0.3) (tstamp 60129C58))
