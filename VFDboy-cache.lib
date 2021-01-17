@@ -44,6 +44,23 @@ X PAD 9 0 -450 100 U 50 50 0 0 P N
 ENDDRAW
 ENDDEF
 #
+# Button_Daughterboard_D-Pad
+#
+DEF Button_Daughterboard_D-Pad SW 0 40 Y Y 1 F N
+F0 "SW" -150 300 50 H V C CNN
+F1 "Button_Daughterboard_D-Pad" 150 300 50 H V C CNN
+F2 "button-daughterboard:Daughterboard_D-Pad" 50 -150 50 H I C CNN
+F3 "" 50 -150 50 H I C CNN
+DRAW
+S -200 250 200 -250 0 1 0 f
+X GND 1 -100 -350 100 U 50 50 0 0 W
+X RIGHT 2 300 150 100 L 50 50 0 0 O
+X DOWN 3 300 50 100 L 50 50 0 0 O
+X LEFT 4 300 -50 100 L 50 50 0 0 O
+X UP 5 300 -150 100 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
 # Connector_AVR-ISP-6
 #
 DEF Connector_AVR-ISP-6 J 0 40 Y Y 1 F N

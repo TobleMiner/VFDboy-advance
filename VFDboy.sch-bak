@@ -1544,4 +1544,28 @@ Wire Wire Line
 Connection ~ 6200 4350
 Wire Wire Line
 	6200 4350 5900 4350
+$Comp
+L Button_Daughterboard:D-Pad SW?
+U 1 1 623C0A73
+P 8500 3100
+F 0 "SW?" H 8558 3515 50  0000 C CNN
+F 1 "D-Pad" H 8558 3424 50  0000 C CNN
+F 2 "button-daughterboard:Daughterboard_D-Pad" H 8550 2950 50  0001 C CNN
+F 3 "" H 8550 2950 50  0001 C CNN
+	1    8500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623C143C
+P 8400 3500
+F 0 "#PWR?" H 8400 3250 50  0001 C CNN
+F 1 "GND" H 8405 3327 50  0000 C CNN
+F 2 "" H 8400 3500 50  0001 C CNN
+F 3 "" H 8400 3500 50  0001 C CNN
+	1    8400 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3500 8400 3450
 $EndSCHEMATC
