@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Button_Carbon)(type KiCad)(uri ${KIPRJMOD}/../lib/Button_Carbon.pretty)(options "")(descr ""))
+  (lib (name MountingHole_GameBoy)(type KiCad)(uri ${KIPRJMOD}/../lib/MountingHole_GameBoy.pretty)(options "")(descr ""))
+  (lib (name MountingHole_GBA)(type KiCad)(uri ${KIPRJMOD}/../lib/MountingHole_GBA.pretty)(options "")(descr ""))
+)
