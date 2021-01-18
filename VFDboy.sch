@@ -1545,10 +1545,10 @@ Connection ~ 6200 4350
 Wire Wire Line
 	6200 4350 5900 4350
 $Comp
-L Button_Daughterboard:D-Pad SW?
+L Button_Daughterboard:D-Pad SW7
 U 1 1 623C0A73
 P 8500 3100
-F 0 "SW?" H 8558 3515 50  0000 C CNN
+F 0 "SW7" H 8558 3515 50  0000 C CNN
 F 1 "D-Pad" H 8558 3424 50  0000 C CNN
 F 2 "button-daughterboard:Daughterboard_D-Pad" H 8550 2950 50  0001 C CNN
 F 3 "" H 8550 2950 50  0001 C CNN
@@ -1556,10 +1556,10 @@ F 3 "" H 8550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0134
 U 1 1 623C143C
 P 8400 3500
-F 0 "#PWR?" H 8400 3250 50  0001 C CNN
+F 0 "#PWR0134" H 8400 3250 50  0001 C CNN
 F 1 "GND" H 8405 3327 50  0000 C CNN
 F 2 "" H 8400 3500 50  0001 C CNN
 F 3 "" H 8400 3500 50  0001 C CNN
@@ -1584,4 +1584,36 @@ Text Label 9050 3250 2    50   ~ 0
 UP
 Wire Wire Line
 	9050 3250 8800 3250
+$Comp
+L Button_Daughterboard:AB SW?
+U 1 1 6007D848
+P 8500 4100
+F 0 "SW?" H 8558 4415 50  0000 C CNN
+F 1 "AB" H 8558 4324 50  0000 C CNN
+F 2 "button-daughterboard:Daugtherboard_AB" H 8550 4050 50  0001 C CNN
+F 3 "" H 8550 4050 50  0001 C CNN
+	1    8500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6007E5AC
+P 8400 4400
+F 0 "#PWR?" H 8400 4150 50  0001 C CNN
+F 1 "GND" H 8405 4227 50  0000 C CNN
+F 2 "" H 8400 4400 50  0001 C CNN
+F 3 "" H 8400 4400 50  0001 C CNN
+	1    8400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4400 8400 4350
+Wire Wire Line
+	8800 4050 8900 4050
+Text Label 8900 4050 2    50   ~ 0
+A
+Wire Wire Line
+	8800 4150 8900 4150
+Text Label 8900 4150 2    50   ~ 0
+B
 $EndSCHEMATC

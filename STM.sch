@@ -705,10 +705,10 @@ Wire Wire Line
 	5450 4300 5150 4300
 Text HLabel 5150 4300 0    50   Input ~ 0
 UP
-Text HLabel 5300 4400 0    50   Input ~ 0
+Text HLabel 5300 4500 0    50   Input ~ 0
 LEFT
 Wire Wire Line
-	5300 4400 5450 4400
+	5300 4500 5450 4500
 Text HLabel 5300 4100 0    50   Input ~ 0
 RIGHT
 Wire Wire Line
@@ -805,8 +805,8 @@ Text Notes 5950 4200 2    50   ~ 0
 ~JTRST
 Connection ~ 3800 4050
 Wire Wire Line
-	5300 4500 5450 4500
-Text HLabel 5300 4500 0    50   Input ~ 0
+	5300 4400 5450 4400
+Text HLabel 5300 4400 0    50   Input ~ 0
 DOWN
 $Comp
 L Device:C C?

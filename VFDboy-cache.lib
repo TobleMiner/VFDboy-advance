@@ -44,6 +44,21 @@ X PAD 9 0 -450 100 U 50 50 0 0 P N
 ENDDRAW
 ENDDEF
 #
+# Button_Daughterboard_AB
+#
+DEF Button_Daughterboard_AB SW 0 40 Y Y 1 F N
+F0 "SW" -150 200 50 H V C CNN
+F1 "Button_Daughterboard_AB" 150 200 50 H V C CNN
+F2 "button-daughterboard:Daugtherboard_AB" 50 -50 50 H I C CNN
+F3 "" 50 -50 50 H I C CNN
+DRAW
+S -200 150 200 -150 0 1 0 f
+X A 1 300 50 100 L 50 50 0 0 O
+X GND 2 -100 -250 100 U 50 50 0 0 W
+X B 3 300 -50 100 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
 # Button_Daughterboard_D-Pad
 #
 DEF Button_Daughterboard_D-Pad SW 0 40 Y Y 1 F N
