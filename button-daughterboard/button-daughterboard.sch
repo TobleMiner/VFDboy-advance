@@ -19,4 +19,16 @@ U 60041E92
 F0 "Sheet60041E91" 50
 F1 "buttons.sch" 50
 $EndSheet
+$Sheet
+S 6900 3350 1200 1100
+U 60071EAD
+F0 "sheet60071EAB" 50
+F1 "buttons.sch" 50
+$EndSheet
+$Sheet
+S 9350 3400 1200 1100
+U 60071EBB
+F0 "sheet60071EB9" 50
+F1 "buttons.sch" 50
+$EndSheet
 $EndSCHEMATC
