@@ -803,7 +803,7 @@ U 1 1 5FF647FD
 P 5300 3650
 F 0 "U1" H 4950 5400 50  0000 C CNN
 F 1 "ATmega32U4-MU" V 5300 3650 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 5300 3650 50  0001 C CIN
+F 2 "QFN_little_paste:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm_little_paste" H 5300 3650 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5300 3650 50  0001 C CNN
 F 4 "C45874" H 5300 3650 50  0001 C CNN "LCSC"
 	1    5300 3650
