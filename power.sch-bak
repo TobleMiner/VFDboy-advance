@@ -208,7 +208,7 @@ AR Path="/60551EE5" Ref="U?"  Part="1"
 AR Path="/6051E9DC/60551EE5" Ref="U3"  Part="1" 
 F 0 "U3" H 7250 4315 50  0000 C CNN
 F 1 "SY7088" H 7250 4224 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm" H 7250 3850 50  0001 C CNN
+F 2 "DFN_little_paste:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm_little_paste" H 7250 3850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY7088DGC_C178240.pdf" H 7250 3850 50  0001 C CNN
 F 4 "C178240" H 7250 3850 50  0001 C CNN "LCSC"
 	1    7250 3850

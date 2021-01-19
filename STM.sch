@@ -156,7 +156,7 @@ F 0 "U8" H 5700 5450 50  0000 C CNN
 F 1 "STM32L151C8Tx" V 6050 3900 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5550 2400 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf" H 6050 3900 50  0001 C CNN
-F 4 "C9861" H 6050 3900 50  0001 C CNN "LCSC"
+F 4 "C95578" H 6050 3900 50  0001 C CNN "LCSC"
 	1    6050 3900
 	1    0    0    -1  
 $EndComp
