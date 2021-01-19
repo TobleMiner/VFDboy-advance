@@ -1042,23 +1042,23 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60EAD0C2
-P 9450 5950
-F 0 "H1" H 9550 5996 50  0000 L CNN
-F 1 "DisplayStandoff" H 9550 5905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9450 5950 50  0001 C CNN
-F 3 "~" H 9450 5950 50  0001 C CNN
-	1    9450 5950
+P 9450 5900
+F 0 "H1" H 9550 5946 50  0000 L CNN
+F 1 "DisplayStandoff" H 9550 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9450 5900 50  0001 C CNN
+F 3 "~" H 9450 5900 50  0001 C CNN
+	1    9450 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60EAD556
-P 9450 6150
-F 0 "H2" H 9550 6196 50  0000 L CNN
-F 1 "DisplayStandoff" H 9550 6105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9450 6150 50  0001 C CNN
-F 3 "~" H 9450 6150 50  0001 C CNN
-	1    9450 6150
+P 9450 6100
+F 0 "H2" H 9550 6146 50  0000 L CNN
+F 1 "DisplayStandoff" H 9550 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9450 6100 50  0001 C CNN
+F 3 "~" H 9450 6100 50  0001 C CNN
+	1    9450 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1102,12 +1102,12 @@ NoConn ~ 5900 4650
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 60F25B53
-P 9450 5650
-F 0 "H3" H 9550 5696 50  0000 L CNN
-F 1 "D-Pad pivot" H 9550 5605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.5mm" H 9450 5650 50  0001 C CNN
-F 3 "~" H 9450 5650 50  0001 C CNN
-	1    9450 5650
+P 3250 6300
+F 0 "H3" H 3350 6346 50  0000 L CNN
+F 1 "D-Pad pivot" H 3350 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 3250 6300 50  0001 C CNN
+F 3 "~" H 3250 6300 50  0001 C CNN
+	1    3250 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1175,45 +1175,45 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 61839028
-P 4550 7350
-F 0 "H5" H 4650 7396 50  0000 L CNN
-F 1 "MountingHole" H 4650 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4550 7350 50  0001 C CNN
-F 3 "~" H 4550 7350 50  0001 C CNN
-	1    4550 7350
+P 8700 5500
+F 0 "H5" H 8800 5546 50  0000 L CNN
+F 1 "MountingHole" H 8800 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8700 5500 50  0001 C CNN
+F 3 "~" H 8700 5500 50  0001 C CNN
+	1    8700 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 6184DCD9
-P 5300 7550
-F 0 "H9" H 5400 7596 50  0000 L CNN
-F 1 "MountingHole" H 5400 7505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5300 7550 50  0001 C CNN
-F 3 "~" H 5300 7550 50  0001 C CNN
-	1    5300 7550
+P 8700 6100
+F 0 "H9" H 8800 6146 50  0000 L CNN
+F 1 "MountingHole" H 8800 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8700 6100 50  0001 C CNN
+F 3 "~" H 8700 6100 50  0001 C CNN
+	1    8700 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H8
 U 1 1 6184DCDF
-P 5300 7350
-F 0 "H8" H 5400 7396 50  0000 L CNN
-F 1 "MountingHole" H 5400 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5300 7350 50  0001 C CNN
-F 3 "~" H 5300 7350 50  0001 C CNN
-	1    5300 7350
+P 8700 5900
+F 0 "H8" H 8800 5946 50  0000 L CNN
+F 1 "MountingHole" H 8800 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8700 5900 50  0001 C CNN
+F 3 "~" H 8700 5900 50  0001 C CNN
+	1    8700 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 6184DCE5
-P 5300 7150
-F 0 "H7" H 5400 7196 50  0000 L CNN
-F 1 "MountingHole" H 5400 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5300 7150 50  0001 C CNN
-F 3 "~" H 5300 7150 50  0001 C CNN
-	1    5300 7150
+P 8700 5700
+F 0 "H7" H 8800 5746 50  0000 L CNN
+F 1 "MountingHole" H 8800 5655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8700 5700 50  0001 C CNN
+F 3 "~" H 8700 5700 50  0001 C CNN
+	1    8700 5700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1262,111 +1262,111 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 620E044D
-P 4350 6450
-F 0 "H4" H 4450 6496 50  0000 L CNN
-F 1 "MountingHole D-Pad right" H 4450 6405 50  0000 L CNN
-F 2 "MountingHole_GBA:MountingHole_GBA_DPAD" H 4350 6450 50  0001 C CNN
-F 3 "~" H 4350 6450 50  0001 C CNN
-	1    4350 6450
+P 3250 6550
+F 0 "H4" H 3350 6596 50  0000 L CNN
+F 1 "MountingHole D-Pad right" H 3350 6505 50  0000 L CNN
+F 2 "MountingHole_GBA:MountingHole_GBA_DPAD" H 3250 6550 50  0001 C CNN
+F 3 "~" H 3250 6550 50  0001 C CNN
+	1    3250 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 620E34B6
-P 4350 6700
-F 0 "H6" H 4450 6746 50  0000 L CNN
-F 1 "MountingHole D-Pad bottom left" H 4450 6655 50  0000 L CNN
-F 2 "MountingHole_GBA:MountingHole_GBA_DPAD" H 4350 6700 50  0001 C CNN
-F 3 "~" H 4350 6700 50  0001 C CNN
-	1    4350 6700
+P 3250 6800
+F 0 "H6" H 3350 6846 50  0000 L CNN
+F 1 "MountingHole D-Pad bottom left" H 3350 6755 50  0000 L CNN
+F 2 "MountingHole_GBA:MountingHole_GBA_DPAD" H 3250 6800 50  0001 C CNN
+F 3 "~" H 3250 6800 50  0001 C CNN
+	1    3250 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H10
 U 1 1 620F5804
-P 3100 7050
-F 0 "H10" H 3200 7096 50  0000 L CNN
-F 1 "MountingHole D-Pad top left" H 3200 7005 50  0000 L CNN
-F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 3100 7050 50  0001 C CNN
-F 3 "~" H 3100 7050 50  0001 C CNN
-	1    3100 7050
+P 3250 7050
+F 0 "H10" H 3350 7096 50  0000 L CNN
+F 1 "MountingHole D-Pad top left" H 3350 7005 50  0000 L CNN
+F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 3250 7050 50  0001 C CNN
+F 3 "~" H 3250 7050 50  0001 C CNN
+	1    3250 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H11
 U 1 1 621007C1
-P 3100 7300
-F 0 "H11" H 3200 7346 50  0000 L CNN
-F 1 "MountingHole D-Pad bottom right" H 3200 7255 50  0000 L CNN
-F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 3100 7300 50  0001 C CNN
-F 3 "~" H 3100 7300 50  0001 C CNN
-	1    3100 7300
+P 3250 7300
+F 0 "H11" H 3350 7346 50  0000 L CNN
+F 1 "MountingHole D-Pad bottom right" H 3350 7255 50  0000 L CNN
+F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 3250 7300 50  0001 C CNN
+F 3 "~" H 3250 7300 50  0001 C CNN
+	1    3250 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H12
 U 1 1 6212859B
-P 1100 7000
-F 0 "H12" H 1200 7046 50  0000 L CNN
-F 1 "MountingHole AB bottom left" H 1200 6955 50  0000 L CNN
-F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 1100 7000 50  0001 C CNN
-F 3 "~" H 1100 7000 50  0001 C CNN
-	1    1100 7000
+P 4850 6600
+F 0 "H12" H 4950 6646 50  0000 L CNN
+F 1 "MountingHole AB bottom left" H 4950 6555 50  0000 L CNN
+F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 4850 6600 50  0001 C CNN
+F 3 "~" H 4850 6600 50  0001 C CNN
+	1    4850 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H13
 U 1 1 621285A1
-P 1100 7250
-F 0 "H13" H 1200 7296 50  0000 L CNN
-F 1 "MountingHole AB top right" H 1200 7205 50  0000 L CNN
-F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 1100 7250 50  0001 C CNN
-F 3 "~" H 1100 7250 50  0001 C CNN
-	1    1100 7250
+P 4850 6850
+F 0 "H13" H 4950 6896 50  0000 L CNN
+F 1 "MountingHole AB top right" H 4950 6805 50  0000 L CNN
+F 2 "MountingHole_GameBoy:MountingHole_GameBoy_DPAD" H 4850 6850 50  0001 C CNN
+F 3 "~" H 4850 6850 50  0001 C CNN
+	1    4850 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H14
 U 1 1 6213C8C1
-P 1150 8050
-F 0 "H14" H 1250 8096 50  0000 L CNN
-F 1 "MountingHole AB bottom right" H 1250 8005 50  0000 L CNN
-F 2 "MountingHole_GBA:MountingHole_GBA_AB_bottom_right" H 1150 8050 50  0001 C CNN
-F 3 "~" H 1150 8050 50  0001 C CNN
-	1    1150 8050
+P 4850 7100
+F 0 "H14" H 4950 7146 50  0000 L CNN
+F 1 "MountingHole AB bottom right" H 4950 7055 50  0000 L CNN
+F 2 "MountingHole_GBA:MountingHole_GBA_AB_bottom_right" H 4850 7100 50  0001 C CNN
+F 3 "~" H 4850 7100 50  0001 C CNN
+	1    4850 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H15
 U 1 1 6213C8C7
-P 1150 8300
-F 0 "H15" H 1250 8346 50  0000 L CNN
-F 1 "MountingHole AB top left" H 1250 8255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 1150 8300 50  0001 C CNN
-F 3 "~" H 1150 8300 50  0001 C CNN
-	1    1150 8300
+P 4850 7350
+F 0 "H15" H 4950 7396 50  0000 L CNN
+F 1 "MountingHole AB top left" H 4950 7305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 4850 7350 50  0001 C CNN
+F 3 "~" H 4850 7350 50  0001 C CNN
+	1    4850 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H16
 U 1 1 621E7530
-P 6400 6200
-F 0 "H16" H 6500 6246 50  0000 L CNN
-F 1 "ToolingHole" H 6500 6155 50  0000 L CNN
-F 2 "ToolingHole:ToolingHole_JLCSMT" H 6400 6200 50  0001 C CNN
-F 3 "~" H 6400 6200 50  0001 C CNN
-	1    6400 6200
+P 6350 7150
+F 0 "H16" H 6450 7196 50  0000 L CNN
+F 1 "ToolingHole" H 6450 7105 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 6350 7150 50  0001 C CNN
+F 3 "~" H 6350 7150 50  0001 C CNN
+	1    6350 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H17
 U 1 1 621E8454
-P 6400 6400
-F 0 "H17" H 6500 6446 50  0000 L CNN
-F 1 "ToolingHole" H 6500 6355 50  0000 L CNN
-F 2 "ToolingHole:ToolingHole_JLCSMT" H 6400 6400 50  0001 C CNN
-F 3 "~" H 6400 6400 50  0001 C CNN
-	1    6400 6400
+P 6350 7350
+F 0 "H17" H 6450 7396 50  0000 L CNN
+F 1 "ToolingHole" H 6450 7305 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 6350 7350 50  0001 C CNN
+F 3 "~" H 6350 7350 50  0001 C CNN
+	1    6350 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
