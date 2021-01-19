@@ -10,4 +10,5 @@
   (lib (name MountingHole_GameBoy)(type KiCad)(uri ${KIPRJMOD}/lib/MountingHole_GameBoy.pretty)(options "")(descr ""))
   (lib (name ToolingHole)(type KiCad)(uri ${KIPRJMOD}/lib/ToolingHole.pretty)(options "")(descr ""))
   (lib (name button-daughterboard)(type KiCad)(uri ${KIPRJMOD}/lib/button-daughterboard.pretty)(options "")(descr ""))
+  (lib (name XKB_switch)(type KiCad)(uri ${KIPRJMOD}/lib/XKB_switch.pretty)(options "")(descr ""))
 )
