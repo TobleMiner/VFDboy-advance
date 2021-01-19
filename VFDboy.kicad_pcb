@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 124)
+    (drawings 123)
     (tracks 1868)
     (zones 0)
     (modules 163)
@@ -6382,9 +6382,6 @@
   )
   (gr_text JLCJLCJLCJLC (at 222.7 109) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
-  )
-  (gr_text "Tobias Schramm" (at 147.4 104.6) (layer F.Mask)
-    (effects (font (size 2 2) (thickness 0.3)))
   )
   (gr_circle (center 228.046 159.5) (end 227.904579 159.5) (layer F.SilkS) (width 0.3) (tstamp 60166484))
   (gr_circle (center 209.18 159.5) (end 209.038579 159.5) (layer F.SilkS) (width 0.3) (tstamp 60166482))
